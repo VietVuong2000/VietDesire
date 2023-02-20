@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto';
   color: #444444;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Jost", sans-serif;
+  font-family: 'Roboto';
 }
 
 /*--------------------------------------------------------------
@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 /*--------------------------------------------------------------
@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Jost", sans-serif;
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -614,7 +614,7 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -688,7 +688,7 @@ section {
 .why-us .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto';
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -768,7 +768,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   color: #37517e;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto';
 }
 
 .skills .content ul {
@@ -803,7 +803,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto';
   color: #37517e;
 }
 
@@ -889,7 +889,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Jost", sans-serif;
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -940,7 +940,7 @@ section {
   transition: all 0.3s;
   padding: 8px 20px;
   border-radius: 50px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto';
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
@@ -1200,7 +1200,7 @@ section {
   font-size: 48px;
   color: #37517e;
   font-weight: 400;
-  font-family: "Jost", sans-serif;
+  font-family: 'Roboto';
   margin-bottom: 25px;
 }
 
@@ -1255,7 +1255,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: 'Roboto';
   transition: 0.3s;
   border: 1px solid #47b2e4;
 }
@@ -1325,7 +1325,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto';
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1702,7 +1702,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: 'Roboto';
   color: #5e5e5e;
 }
 
@@ -1811,4 +1811,15 @@ section {
 .set-location{
   display: flex;
   justify-content: center;
+}
+
+
+
+.the-first{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #3333;
+  border-radius: 20px;
+  background-color: #ffffff;
 }
