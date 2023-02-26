@@ -1816,22 +1816,23 @@ section {
 
 
 .the-first{
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  padding: 10px;
   border: 1px solid #3333;
   border-radius: 20px;
   background-color: #ffffff;
-  margin: 20px;
-  width: 80%;
+  margin: 10px;
+  width: 100%;
 
 }
 
 .img-p1 {
-  margin-top: -20px;
-  margin-bottom: 20px;
+  /*margin-top: 20px;*/
+  /*margin-bottom: 20px;*/
   margin-right: 10px;
   margin-left: 12px;
+  float: left;
 }
 
 p {
